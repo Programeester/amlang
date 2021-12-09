@@ -28,7 +28,6 @@ keywords = {
     "if" : "IF",
     "elif" : "ELIF",
     "else" : "ELSE",
-    "class" : "CLASS",
     "pass" : "PASS",
     "break" : "BREAK",
     "func" : "FUNC",
@@ -38,11 +37,10 @@ keywords = {
 }
 
 data_types = {
-    "int" : int,
-    "float" : float,
-    "string" : str,
-    "list" : list,
-    "object" : dt.class_,
+    "getal" : dt.getal,
+    "string" : dt.string,
+    "list" : dt.list,
+    "dict" : dt.dictionary,
 }
 
 patterns = {
