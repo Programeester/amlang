@@ -47,6 +47,6 @@ data_types = {
 
 patterns = {
     "path_pattern" : re.compile(r".*\.uh"),  #  controleerd of het bestand eindigd op de goede extensie
-    "keyword_pattern" : re.compile(rf"[{keywords.keys()}]([{data_types.keys()}][])")  #  kijken voor keywords
-    "comparison_pattern" : re.compile(rf"([{data_types.keys()}][])\s[{comparison_characters.keys()}]\s([{data_types.keys()}][])")
+    "keyword_pattern" : re.compile(rf"[{keywords.keys()}]([{data_types.keys()}][])"),  #  kijken voor keywords
+    "comparison_pattern" : re.compile(rf"([{data_types.keys()}][])\s[{comparison_characters.keys()}]\s([{data_types.keys()}][])"),
 }
